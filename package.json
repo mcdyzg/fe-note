@@ -1,5 +1,5 @@
 {
-  "name": "mp_front",
+  "name": "fe-note",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git-server.chinaeast.cloudapp.chinacloudapi.cn:jiaopei/mp_front.git"
+    "url": "https://github.com/mcdyzg/fe-note.git"
   },
-  "author": "",
+  "author": "mcdyzg",
   "license": "ISC",
   "dependencies": {
     "antd": "^3.1.1",
