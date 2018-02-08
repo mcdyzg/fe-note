@@ -1,0 +1,19 @@
+^^_^^
+title:'第二篇文档',
+author:'mcdyzg',
+cover:'https://wp-themes.com/wp-content/themes/hestia/demo-preview-images/img/3.jpg',
+desc:'This is the second note about js ^_^',
+time:'2017-02-03 14:20:30',
+^^_^^
+
+# This is the second note about js
+
+column1|column2|column3
+-|
+line1|line2|line3
+
+## 标题2
+
+![图片](https://wp-themes.com/wp-content/themes/hestia/demo-preview-images/img/3.jpg)
+
+> 这是引用

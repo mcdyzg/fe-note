@@ -1,0 +1,34 @@
+.header-wrap{
+    height:350px;
+    background: linear-gradient(45deg, rgb(168,29,132) 0%, rgb(234,57,111) 100%);
+    font-size: 36px;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .header-github{
+        position: absolute;
+        top:20px;
+        right:30px;
+    }
+    .header-home{
+        display: none;
+        position: absolute;
+        top:20px;
+        left:30px;
+    }
+    .title{
+        margin-top: -40px;
+        font-size: 36px;
+        font-family: "Arial";
+    }
+    .fu-title{
+        font-size: 18px;
+        margin-top: 15px;
+        font-weight: lighter;
+        font-family: Arial;
+    }
+}

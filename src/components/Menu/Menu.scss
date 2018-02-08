@@ -1,0 +1,24 @@
+.menu-wrap{
+    padding:15px;
+    // flex: 0 0 240px;
+    width: 25%;
+    float:left;
+    .menu-title{
+        font-size: 18px;
+        height: 30px;
+        line-height: 30px;
+        margin:10px 0;
+    }
+    .menu-content{
+        padding-left: 10px;
+        a{
+            height:36px;
+            display: block;
+            text-decoration: none;
+            div{
+                color: #23527c;
+                font-weight: 500;
+            }
+        }
+    }
+}

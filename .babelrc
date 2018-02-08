@@ -1,0 +1,27 @@
+{
+    "presets": [
+        ["env", {
+            "modules": false
+        }],
+        "react",
+        // for arrow function
+        "stage-0"
+    ],
+    "env": {
+        "development": {
+            "plugins": ["react-hot-loader/babel"]
+        }
+    },
+    "plugins": [["import", {
+          "libraryName": "antd",
+          "style": true,
+        }],
+        // for async/await
+        ["transform-runtime", {
+            "helpers": false,
+            "polyfill": false,
+            "regenerator": true,
+            "moduleName": "babel-runtime"
+        }],
+    ]
+}

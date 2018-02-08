@@ -1,0 +1,11 @@
+.markdown-body{
+    span.hljs-comment{
+        display: block;
+    }
+    code{
+        display: block;
+        word-break: normal;
+        white-space: pre;
+        overflow-x: auto;
+    }
+}

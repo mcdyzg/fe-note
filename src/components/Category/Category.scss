@@ -1,0 +1,74 @@
+.category-wrap{
+    &>a{
+        text-decoration: none;
+
+        .category-item{
+            color:#3C4858;
+            text-decoration: none;
+            padding: 30px 15px;
+            display: flex;
+            flex-wrap: wrap;
+            // width:100%;
+            .ci-left{
+                @media (max-width: 520px) {
+                    flex:1 1 auto;
+                }
+                flex:0 0 240px;
+                .image{
+                    flex-shrink: 0;
+                    width:100%;
+                    // height:160px;
+                    border-radius: 3px;
+                    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+                }
+            }
+
+            .ci-right{
+                @media (max-width: 500px) {
+                    padding-left: 0;
+                }
+                flex:1 0 230px;
+                padding-left: 30px;
+                .category{
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color:#e91e63;
+                }
+                .title{
+                    margin:12px 0;
+                    font-size: 25px;
+                    line-height: 30px;
+                    font-weight: bold;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    display:-webkit-box;
+                    -webkit-line-clamp:2;
+                    line-clamp:2;
+                    -webkit-box-orient:vertical;
+                }
+                .desc{
+                    color:#bbb9b9;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-weight: bold;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    display:-webkit-box;
+                    -webkit-line-clamp:4;
+                    line-clamp:4;
+                    -webkit-box-orient:vertical;
+                    margin-bottom: 20px;
+                    word-wrap: break-word;
+                    word-break: break-all;
+                }
+                .author{
+                    color:#999;
+                    .author-name{
+                        color:#3C4858;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+    }
+}
